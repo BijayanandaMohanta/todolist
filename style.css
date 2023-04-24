@@ -1,0 +1,131 @@
+*{
+    font-family:Calibri;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+h3{
+    text-align: center;
+    color: #a5a5a5;
+}
+
+nav{
+    background-color: blueviolet;
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    display: inline;
+    outline: none;
+    list-style: none;
+    /* padding: 10px 0px; */
+    /* margin: 0; */
+}
+li a{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 78vw;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+
+
+.box{
+    border-radius: 5px;
+    margin: 5px;
+    /* padding: 5px; */
+    max-width: 280px;
+    float: left;
+    border: none;
+    /* background-color: rgba(0, 0, 0, 0); */
+}
+
+.heading,.footer,.content{
+    padding: 20px;
+    /* border: 1px solid blueviolet; */
+}
+.box .heading{
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    /* text-align: center; */
+}
+.footer{
+    background-color: blueviolet;
+    text-align: right;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer button{
+    outline: none;
+    width: 100px;
+    /* height: 50px; */
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.footer button:hover{
+    text-decoration: underline;
+    transition: .2s;
+}
+
+.footer button:last-child{
+    background-color: #f14646;
+    color: white;
+}
+
+form{
+    border: 1px solid blueviolet;
+    /* background-color: blueviolet; */
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50vw;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form input[type="text"], textarea{
+    width: 98.3%;
+    padding: 5px 5px;
+    outline: none;
+    border-color: blueviolet;
+    margin-bottom: 5px;
+}
+
+form input[type="text"]:focus, textarea:focus{
+    background-color: #eeebf0;
+}
